@@ -1,0 +1,41 @@
+header {
+    font-size: 50px;
+    background-color: orange;
+}
+
+nav {
+    background-color: yellow;
+    border: 1px solid darkorange;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-right: 1px solid darkorange;
+}
+
+li a {
+    color: darkblue;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: orange;
+}
+
+aside { 
+    width: 250px; 
+    position: absolute;
+    top: 120px;   
+    bottom: 75px; 
+    background-color: rgb(150, 97, 0);
+    opacity: 0.6;
+  } 
