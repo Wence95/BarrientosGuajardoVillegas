@@ -1,0 +1,54 @@
+header {
+    font-size: 50px;
+    background-color: orange;
+}
+
+nav {
+    background-color: yellow;
+    border: 1px solid darkorange;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-right: 1px solid darkorange;
+}
+
+li a {
+    color: darkblue;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: orange;
+}
+
+aside { 
+    width: 250px; 
+    position: absolute;
+    top: 120px;   
+    bottom: 75px; 
+    background-color: rgb(150, 97, 0);
+    opacity: 0.6;
+  } 
+form {
+    text-align:center;
+    opacity: 0.6;
+    height: 800px;
+    width: 1225px;
+    float:center;
+    border-color: lightgrey;
+    border-width: 30px;
+    font-family: helvetica;
+    font-size: 32px;
+    background-color: orange;
+    background-image:url(https://images.vexels.com/media/users/3/131779/isolated/preview/3d4929d289ad98ad71637d5c257d2f08-logo-de-pizza-1.png);
+}
