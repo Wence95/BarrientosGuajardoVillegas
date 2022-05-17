@@ -8,26 +8,26 @@ nav {
     border: 1px solid darkorange;
 }
 
-ul {
+.ul-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.li-nav {
     float: left;
     border-right: 1px solid darkorange;
 }
 
-li a {
+.li-nav a {
     color: darkblue;
     display: block;
     padding: 14px;
     text-decoration: none;
 }
 
-li a:hover {
+.li-nav a:hover {
     background-color: orange;
 }
 
@@ -36,10 +36,11 @@ li a:hover {
 }
 
 aside { 
+    word-wrap: break-word;
     width: 200px; 
     position: absolute;
     top: 120px;   
-    bottom: 75px; 
+    bottom: 3%; 
     background-color: rgb(150, 97, 0);
     opacity: 0.6;
 } 
