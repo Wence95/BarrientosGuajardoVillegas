@@ -55,10 +55,13 @@ aside {
 }
 
 .div-body {
+    word-wrap:break-word;
+    text-align: left;
     top: 10px;
     position: relative;
     left: 255px;
-    width: fit-content;
+    font-size:large;
+    width: 75%;
 }
 
 body::before {
