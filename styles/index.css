@@ -74,7 +74,7 @@ body::before {
 }
 
 footer {
-    position: sticky;
+    position: absolute;
     bottom: 0;
     background-color: yellow;
     left: 0;
