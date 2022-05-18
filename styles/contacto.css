@@ -31,24 +31,96 @@ li a:hover {
     background-color: orange;
 }
 
-aside { 
-    width: 250px; 
+.active{
+    background-color: orange;
+}
+
+aside {
+    font-family: Arial; 
+    overflow: hidden;
+    word-wrap: break-word;
+    width: 200px; 
     position: absolute;
-    top: 120px;   
-    bottom: 75px; 
-    background-color: rgb(150, 97, 0);
+    top: 115px;   
+    bottom: 3%; 
+    background-color: rgba(150, 97, 0, 0.6);
+} 
+
+.div-body {
+    top: 10px;
+    position: relative;
+    left: 255px;
+    width: fit-content;
+}
+
+body::before {
+    content: "";
+    background-color: orange;
+    background-image: url(https://images.vexels.com/media/users/3/131779/isolated/preview/3d4929d289ad98ad71637d5c257d2f08-logo-de-pizza-1.png);
+    position: absolute;
+    top: 115px;
+    right: 10px;
+    bottom: 10px;
+    left: 210px;
     opacity: 0.6;
-  } 
-form {
-    text-align:center;
+}
+
+#caja1{
+    
+    text-align:left;
     opacity: 0.6;
     height: 800px;
     width: 1225px;
-    float:center;
-    border-color: lightgrey;
+    float:left;
+    border-color: orange;
     border-width: 30px;
     font-family: helvetica;
     font-size: 32px;
-    background-color: orange;
-    background-image:url(https://images.vexels.com/media/users/3/131779/isolated/preview/3d4929d289ad98ad71637d5c257d2f08-logo-de-pizza-1.png);
+    
+}
+
+.principal {
+    display: block;
+    margin:0 auto;
+    width: 2000px;
+    color:orangered;
+    font-family:Arial;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: yellow;
+    left: 0;
+    width: 100%;
+}
+
+input, textarea {
+    width:380px;
+    height:27px;
+    background:gray;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:red;
+}
+textarea {
+    height:150px;
+}
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+form {
+    margin:0 auto;
+    width:400px;
 }
