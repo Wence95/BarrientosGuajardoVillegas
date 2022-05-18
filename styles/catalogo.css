@@ -12,14 +12,14 @@ nav {
     border-color: brown;
 }
 
-ul {
+.ul-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.li-nav {
     float: left;
     border-right: 1px solid darkorange;
 }
@@ -27,50 +27,59 @@ li {
     background-color: orange;
 }
 
-li a {
+.li-nav a {
+    font-family: Arial;
     color: darkblue;
     display: block;
     padding: 14px;
     text-decoration: none;
 }
 
-li a:hover {
+.li-nav a:hover {
     background-color: orange;
 }
-.div1 {
-    width: 300px;
-    height: 100px;
-    padding: 50px;
-    border: 1px solid red;
-  }
-aside { 
-    width: 230px; 
+
+aside {
+    font-family: Arial; 
+    overflow: hidden;
+    word-wrap: break-word;
+    width: 200px; 
     position: absolute;
-    top: 120px;   
-    bottom: 10px; 
-    left: 10px;
-    right: 1px;
-    background-color: rgb(150, 97, 0);
-    opacity: 0.6;
+    top: 115px;   
+    bottom: 0%; 
+    background-color: rgba(150, 97, 0, 0.6);
 } 
-.div-body {
-    top: 100px;
-    position: relative;
-    left: 100px;
-    width: 340px;
-    height: 170px;
+
+.aside-img {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0px;
 }
+ 
+.div-body {
+    top: 10px;
+    position: relative;
+    left: 255px;
+    width: fit-content;
+}
+
+img {
+    height: 200px;
+}
+
 body::before {
     content: "";
     background-color: orange;
     background-image: url(https://images.vexels.com/media/users/3/131779/isolated/preview/3d4929d289ad98ad71637d5c257d2f08-logo-de-pizza-1.png);
-    position: fixed;
-    top: 121px;
-    right: 10px;
+    background-attachment: ;
+    position: absolute;
+    top: 115px;
+    right: 0px;
     bottom: 10px;
-    left: 239px;
+    left: 0px;
     opacity: 0.6;
 }
+
 footer {
     position: absolute;
     bottom: 0;
