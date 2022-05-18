@@ -48,6 +48,12 @@ aside {
     background-color: rgba(150, 97, 0, 0.6);
 } 
 
+.aside-img {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
 .div-body {
     top: 10px;
     position: relative;
